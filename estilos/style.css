@@ -15,10 +15,15 @@ body{
     background-attachment: fixed;
 }
 
+
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
 main{
     height: 100vh;
     position: relative;
-    overflow: auto;
+   
   
 }
 
@@ -31,7 +36,6 @@ section#telefones{
 
     height: 627px;
     width: 311px;
-    background-color: blue;
     background: url(../imagens/frame-iphone.png ) no-repeat;
 }
 
